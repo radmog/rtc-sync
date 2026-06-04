@@ -1,0 +1,18 @@
+[Unit]
+Description=RTC Synchronization Service for Raspberry Pi
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/bin/rtcsync
+ExecStart=/bin/rtcsync/venv/bin/python3 /bin/rtcsync/rtc_sync.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+Environment="PATH=/bin/rtcsync/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+[Install]
+WantedBy=multi-user.target
