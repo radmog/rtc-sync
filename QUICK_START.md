@@ -37,7 +37,7 @@ A instalação irá:
 #### 4️⃣ Testar
 ```bash
 source /bin/rtcsync/venv/bin/activate
-sudo python3 /bin/rtcsync/test_rtc.py
+python3 /bin/rtcsync/test_rtc.py
 ```
 
 Deve mostrar: **✓ TODOS OS TESTES PASSARAM**
@@ -45,7 +45,7 @@ Deve mostrar: **✓ TODOS OS TESTES PASSARAM**
 #### 5️⃣ Executar manualmente (teste)
 ```bash
 source /bin/rtcsync/venv/bin/activate
-sudo python3 /bin/rtcsync/rtc_sync.py
+python3 /bin/rtcsync/rtc_sync.py
 ```
 
 Deve mostrar:

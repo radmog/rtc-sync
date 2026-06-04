@@ -82,7 +82,7 @@ echo ""
 echo "10. Configurando permissões..."
 chmod 755 "$INSTALL_DIR"
 chmod 755 "$LOG_DIR"
-chmod 666 "$LOG_DIR"
+chown -R $(logname):$(logname) "$LOG_DIR"
 
 echo ""
 echo "================================================"

@@ -91,11 +91,11 @@ Este script irá:
 As seguintes bibliotecas serão instaladas no ambiente virtual:
 
 ```
-adafruit-circuitpython-ds3231==2.0.7  # Controle do RTC DS3231
-adafruit-blinka==8.47.0               # Abstração de GPIO
-ntplib==0.4.0                         # Cliente NTP
-schedule==1.2.0                       # Agendamento de tarefas
-requests==2.31.0                      # Requisições HTTP
+adafruit-circuitpython-ds3231==2.4.28 # Controle do RTC DS3231
+adafruit-blinka==8.47.0                # Abstração de GPIO
+ntplib==0.4.0                          # Cliente NTP
+schedule==1.2.0                        # Agendamento de tarefas
+requests==2.31.0                       # Requisições HTTP
 ```
 
 Tudo é instalado isoladamente em `/bin/rtcsync/venv/`, sem afetar o sistema.
