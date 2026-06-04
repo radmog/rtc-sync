@@ -109,7 +109,7 @@ Antes de configurar como serviço, teste o script manualmente:
 source /bin/rtcsync/venv/bin/activate
 
 # Executar script
-sudo python3 /bin/rtcsync/rtc_sync.py
+python3 /bin/rtcsync/rtc_sync.py
 ```
 
 Você deve ver algo como:

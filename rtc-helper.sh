@@ -74,14 +74,14 @@ case "$1" in
     test)
         echo -e "${BLUE}Executando diagnóstico...${NC}"
         source "$VENV_DIR/bin/activate"
-        sudo python3 "$INSTALL_DIR/test_rtc.py"
+        python3 "$INSTALL_DIR/test_rtc.py"
         ;;
     
     manual)
         echo -e "${BLUE}Executando script manualmente...${NC}"
         echo -e "${YELLOW}(Pressione Ctrl+C para parar)${NC}"
         source "$VENV_DIR/bin/activate"
-        sudo python3 "$INSTALL_DIR/rtc_sync.py"
+        python3 "$INSTALL_DIR/rtc_sync.py"
         ;;
     
     shell)
