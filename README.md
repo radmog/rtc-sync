@@ -122,11 +122,11 @@ Você deve ver algo como:
 2026-06-04 14:30:28,456 - INFO - ✓ Conexão com internet detectada
 2026-06-04 14:30:29,567 - INFO - ✓ Hora NTP obtida de pool.ntp.org
 2026-06-04 14:30:29,678 - INFO - ✓ RTC atualizado para: 2026-06-04 14:30:29
+2026-06-04 14:30:29,567 - INFO - ✓ Hora NTP obtida de pool.ntp.org: 2026-06-04 14:30:29
+2026-06-04 14:30:29,678 - INFO - ✓ RTC atualizado para: 2026-06-04 14:30:29
 ```
 
 Se houver erro, veja [TROUBLESHOOTING.md](/bin/rtcsync/TROUBLESHOOTING.md)
-2026-06-04 14:30:29,567 - INFO - ✓ Hora NTP obtida de pool.ntp.org: 2026-06-04 14:30:29
-2026-06-04 14:30:29,678 - INFO - ✓ RTC atualizado para: 2026-06-04 14:30:29
 ```
 
 ## 🔧 Configuração como Serviço Systemd
